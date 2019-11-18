@@ -1,0 +1,32 @@
+{
+  "name": "image-store-mongo",
+  "version": "1.0.0",
+  "description": "API to store image in mongodb as buffer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iravishah/image-store-mongo.git"
+  },
+  "keywords": [
+    "images",
+    "mongodb",
+    "storage",
+    "buffer"
+  ],
+  "author": "Ravi Shah <rvshah1992@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iravishah/image-store-mongo/issues"
+  },
+  "homepage": "https://github.com/iravishah/image-store-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongo-uri-builder": "^2.0.0",
+    "mongoose": "^5.7.11",
+    "multer": "^1.4.2"
+  }
+}

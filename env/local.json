@@ -1,0 +1,28 @@
+{
+  "port": 8888,
+  "mongo": {
+    "username": "admin",
+    "password": "admin",
+    "db": "file-upload",
+    "replicas": [
+      "localhost:27017"
+    ],
+    "options": {
+      "socketTimeoutMS": 0,
+      "autoReconnect": true,
+      "keepAlive": true,
+      "reconnectInterval": 1000,
+      "bufferMaxEntries": 0,
+      "readPreference": "secondaryPreferred",
+      "poolSize": 8,
+      "w": "majority",
+      "connectTimeoutMS": 20000,
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true
+    }
+  },
+  "types": {
+    "text/plain": "utf8",
+    "image/png": "binary"
+  }
+}
