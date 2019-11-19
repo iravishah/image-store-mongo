@@ -24,6 +24,6 @@ body: userPhoto: <file from your machine>
 ### GET call to retrive file
 
 ```
-URL : http://localhost:8888/api/:_id
+URL: http://localhost:8888/api/:_id
 query: path: <path where you want to store image>
 ```
