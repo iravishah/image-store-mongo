@@ -18,7 +18,7 @@ To start the service
 ```
 URL : http://localhost:8888/api/photo
 content-type: application/form-data
-body: userPhoto: <file from your machine>
+body: file: <file from your machine>
 ```
 
 ### GET call to retrive file
