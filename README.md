@@ -25,5 +25,5 @@ body: userPhoto: <file from your machine>
 
 ```
 URL: http://localhost:8888/api/:_id
-query: path: <path where you want to store image>
+query: path: <path where you want to store file>
 ```
