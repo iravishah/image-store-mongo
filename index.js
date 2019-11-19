@@ -11,7 +11,7 @@ const router = express.Router();
 const mongoConnect = require('./db/connect');
 mongoConnect.connect(global.config.mongo);
 
-app.use(multer({ dest: './uploads/' }).single("userPhoto"));
+app.use(multer({ dest: './uploads/' }).single('file'));
 app.use(bodyParser.json());
 
 require('./models/image');
